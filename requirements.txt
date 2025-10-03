@@ -1,0 +1,17 @@
+# Core LLM + Agentic Framework
+openai
+langchain
+
+# Data Handling
+pandas
+python-dotenv
+
+# Optional: Optimization & Scheduling
+ortools
+
+# Optional: Visualization & Debugging
+matplotlib
+streamlit
+
+# Testing
+pytest
