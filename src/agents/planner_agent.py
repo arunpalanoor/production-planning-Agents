@@ -11,7 +11,7 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize LLM
-llm = ChatOpenAI(temperature=0.3, openai_api_key=openai_api_key)
+llm = ChatOpenAI(temperature=0.3, openai_api_key=openai_api_key) #, model_name="gpt-4") Default is gpt-3.5-turbo
 
 # Import tools (mocked for now)
 from src.tools.excel_parser import parse_excel

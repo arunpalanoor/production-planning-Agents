@@ -1,6 +1,7 @@
 # Core LLM + Agentic Framework
 openai
 langchain
+langchain-community
 
 # Data Handling
 pandas
